@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+#name {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.thrandur {
+    color: white;
+    position: fixed;
+    font-family: Helvetica, sans-serif;
+    mix-blend-mode: difference;
+}
+
+.feed {
+    padding-top: 225px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    display: flex;
+}
