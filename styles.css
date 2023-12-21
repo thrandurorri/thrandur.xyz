@@ -29,9 +29,8 @@ body{
     display: flex;
 }
 
-@media (min-width: 768px) {
-    .body {
-        position: fixed;
-        width: 100%;
+@media (max-width: 768px) {
+    .image {
+        width: 100%; /* Make images full width on mobile */
     }
 }
