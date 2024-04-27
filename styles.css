@@ -9,9 +9,15 @@ body{
 
 #name {
     font-family: 'EB Garamond', serif;
-    font-size: 40px;
+    font-size: 60px;
     margin: 0;
     margin-top: 10px;
+}
+
+#sub{
+    font-size: 14px;
+    margin-top: 0;
+
 }
 
 .thrandur {
@@ -19,6 +25,7 @@ body{
     position: fixed;
     font-family: Helvetica, sans-serif;
     mix-blend-mode: difference;
+    margin-top: 50px;
 }
 
 .feed {
