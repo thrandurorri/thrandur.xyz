@@ -66,9 +66,16 @@ imageUrls.forEach(url => {
     imageContainer.classList.add("image");
 
     const imageElement = document.createElement("img");
+    imageElement.onload = () => {
+        console.log("Image loaded successfully:", url);
+    };
+    imageElement.onerror = () => {
+        console.error("Error loading image:", url);
+    };
     imageElement.src = url;
-    imageElement.width = 500;
+    imageElement.style.width = "100%";
 
     imageContainer.appendChild(imageElement);
     imageFeed.appendChild(imageContainer);
 });
+

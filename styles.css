@@ -33,6 +33,7 @@ body{
     padding-top: 220px;
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 .image {
@@ -40,7 +41,9 @@ body{
 }
 
 @media (max-width: 768px) {
+    
     .feed {
-        width: 100%; /* Make images full width on mobile */
+        width: 100%;
+        box-sizing: border-box;
     }
 }
