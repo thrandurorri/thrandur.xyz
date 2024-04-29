@@ -50,4 +50,11 @@ body{
         width: 100%;
         box-sizing: border-box;
     }
+
+    .thrandur {
+        margin-top: 50vh;
+        top: auto;
+        left: auto;
+        transform: none;
+    }
 }

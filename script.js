@@ -101,4 +101,3 @@ imageUrls.forEach(url => {
     imageContainer.appendChild(imageElement);
     imageFeed.appendChild(imageContainer);
 });
-
