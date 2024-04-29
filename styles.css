@@ -6,6 +6,7 @@ body{
     margin: 0;
     width: 100%;
     position: relative;
+    height: 100vh;
 }
 
 #name {
@@ -28,6 +29,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    -webkit-overflow-scrolling: touch;
 }
 
 
