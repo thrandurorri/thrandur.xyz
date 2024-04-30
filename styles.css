@@ -9,12 +9,6 @@ body{
     height: 100vh;
 }
 
-body, html {
-    overflow-y: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-}
-
 body::-webkit-scrollbar, html::-webkit-scrollbar {
     display: none;
 }
@@ -28,7 +22,6 @@ body::-webkit-scrollbar, html::-webkit-scrollbar {
 #sub{
     font-size: 14px;
     margin-top: 5;
-
 }
 
 .thrandur {
