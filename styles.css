@@ -9,6 +9,17 @@ body{
     height: 100vh;
 }
 
+body, html {
+    -webkit-overflow-scrolling: touch;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar, html::-webkit-scrollbar {
+    display: none;
+}
+
 #name {
     font-family: 'EB Garamond', serif;
     font-size: 60px;
@@ -29,12 +40,11 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -webkit-overflow-scrolling: touch;
 }
 
 
 .feed {
-    padding-top: 700px;
+    margin-top: 100vh;
     display: flex;
     flex-direction: column;
     width: 500px;
